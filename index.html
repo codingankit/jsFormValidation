@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  
+  <div id="container">
+   <div id="frm-cont">
+    <div id="header">
+     <h2>Registration  Form</h2>
+    </div>
+    <div id="frm-div">
+     <form id="form" novalidate  autocomplete="off" action="#">
+      
+      <div class="in-gr">
+       <input type="text" id="user" placeholder="Username">
+       <span class="errTxt" id="utxt">Username Not Filed</span>
+      </div>
+      
+      <div class="in-gr">
+       <input type="email" id="email" placeholder="Email Address">
+       <span class="errTxt" id="etxt"></span>
+      </div>
+      
+      <div class="in-gr">
+       <input type="number" id="number" placeholder="Mobile No.">
+       <span class="errTxt" id="ntxt"></span>
+      </div>
+      
+      <div class="in-gr">
+       <input type="password" id="pass" placeholder="Password">
+       <span class="errTxt" id="ptxt"></span>
+      </div>
+      
+      <div class="in-gr">
+       <input type="password" id="cpass" placeholder="Confirm Password">
+       <span class="errTxt" id="cptxt"></span>
+      </div>
+      
+      <input type="submit" id="sbtn" value="Submit">
+      
+     </form>
+    </div>
+   </div>
+  </div>
+  
+  <script src="main.js"></script>
+ </body>
+</html>
